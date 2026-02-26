@@ -5,7 +5,7 @@ const TaskList=({tasks,setTasks} )=>{
         setTasks(copyTask)
     }
     return(
-        <div className="  flex-1 p-2">
+        <div className="flex-1 p-2">
             <h1>Tasks</h1>
             {tasks.map((task,idx)=>{
                 let priorityColor="";

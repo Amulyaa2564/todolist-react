@@ -17,6 +17,7 @@ const App=()=>{
     setTasks([...tasks,newTask])
     setTitle("")
     setContent("")
+    setPriority("")
   
   }
   useEffect(()=>{
